@@ -13,6 +13,7 @@
 		9FA7F6A11B93E0BB001F0B2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7F69F1B93E0BB001F0B2E /* Main.storyboard */; };
 		9FA7F6A31B93E0BB001F0B2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7F6A21B93E0BB001F0B2E /* Assets.xcassets */; };
 		9FA7F6A61B93E0BB001F0B2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7F6A41B93E0BB001F0B2E /* LaunchScreen.storyboard */; };
+		9FA7F6B01B93E190001F0B2E /* SSSnackbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7F6AF1B93E190001F0B2E /* SSSnackbar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9FA7F6A21B93E0BB001F0B2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FA7F6A51B93E0BB001F0B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FA7F6A71B93E0BB001F0B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FA7F6AE1B93E190001F0B2E /* SSSnackbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSSnackbar.h; sourceTree = "<group>"; };
+		9FA7F6AF1B93E190001F0B2E /* SSSnackbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSSnackbar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		9FA7F6951B93E0BA001F0B2E /* SnackBar */ = {
 			isa = PBXGroup;
 			children = (
+				9FA7F6AD1B93E18F001F0B2E /* SSnackBar */,
 				9FA7F6991B93E0BA001F0B2E /* AppDelegate.h */,
 				9FA7F69A1B93E0BA001F0B2E /* AppDelegate.m */,
 				9FA7F69C1B93E0BA001F0B2E /* ViewController.h */,
@@ -77,6 +81,15 @@
 				9FA7F6971B93E0BA001F0B2E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FA7F6AD1B93E18F001F0B2E /* SSnackBar */ = {
+			isa = PBXGroup;
+			children = (
+				9FA7F6AE1B93E190001F0B2E /* SSSnackbar.h */,
+				9FA7F6AF1B93E190001F0B2E /* SSSnackbar.m */,
+			);
+			path = SSnackBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			files = (
 				9FA7F69E1B93E0BA001F0B2E /* ViewController.m in Sources */,
 				9FA7F69B1B93E0BA001F0B2E /* AppDelegate.m in Sources */,
+				9FA7F6B01B93E190001F0B2E /* SSSnackbar.m in Sources */,
 				9FA7F6981B93E0BA001F0B2E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
